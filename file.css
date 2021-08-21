@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-size: 15px;
+
+    overflow-x: hidden;
+}
+
+.navbar {
+    margin: 0;
+    padding-top: 30px;
+    z-index: 9999;
+    border: 0;
+    line-height: 1.42857143 !important;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    height: 100px;
+}
+
+.fixed-top {
+    z-index: 1030;
+}
+
+.logo {
+    height: 100%;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+   background-color: #040427;
+    border-radius: 0.25rem;
+}
+
+.nav-item {
+    color: #070707;
+    letter-spacing: 2px;
+    padding: 0 8px 0 8px;
+}
+
+.nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #070707;
+}
+
+.site-section {
+    padding: 100px 0 100px 0;
+    background-color: #040427;
+    color: #c4bebe;
+}
+
+.site-hero {
+    width: 100%;
+    height: 700px;
+    background: url('Francis.jpg') rgba(255, 255, 255, 0.3) no-repeat center center scroll;
+    background-size: cover;
+    background-blend-mode: lighten;
+    position: relative;
+}
+
+.intro {
+    padding-top: 250px;
+
+}
+
+h1 {
+    font-size: 70px;
+    color: #1a181869;
+}
+
+
+
+.resume-item {
+    background-color: #13133f;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.fa-calendar {
+    margin: 0 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #eec189;
+}
+
+.skills {
+    font-size: 50px;
+    margin: 20px;
+}
